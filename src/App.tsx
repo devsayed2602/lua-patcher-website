@@ -88,7 +88,8 @@ function Hero() {
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <a
-                href="#download"
+                href="/lua-patcher.exe"
+                download
                 className="px-8 py-4 bg-brand text-white rounded-xl font-bold text-lg transition-all hover:bg-brand-dark hover:scale-105 active:scale-95 shadow-xl shadow-brand/20"
               >
                 Download for Windows
@@ -258,9 +259,13 @@ function CallToAction() {
             <div className="px-3 py-1 rounded-md bg-brand/20 text-brand text-[10px] font-black uppercase tracking-widest border border-brand/30">LATEST</div>
           </div>
 
-          <button className="w-full py-5 bg-brand hover:bg-brand-dark text-white rounded-2xl font-black text-xl transition-all hover:scale-[1.02] shadow-2xl shadow-brand/30 uppercase tracking-tight">
+          <a 
+            href="/lua-patcher.exe"
+            download
+            className="w-full py-5 bg-brand hover:bg-brand-dark text-white rounded-2xl font-black text-xl transition-all hover:scale-[1.02] shadow-2xl shadow-brand/30 uppercase tracking-tight inline-block text-center"
+          >
             DOWNLOAD FOR WINDOWS
-          </button>
+          </a>
 
           <p className="mt-8 text-gray-500 text-[10px] font-black uppercase tracking-widest">
             By downloading, you agree to our Terms of Service.
